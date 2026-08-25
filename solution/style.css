@@ -1,4 +1,13 @@
 @import "tailwindcss";
-body{
-    background-color: #2854FD;
+
+@font-face{
+    font-family: 'Inter';
+    src: url('./assets/fonts/inter/inter-variable.ttf');
+    font-weight: 400 500;
 }
+
+:root{
+  --font-sans: 'Inter', sans-serif;
+}
+
+
